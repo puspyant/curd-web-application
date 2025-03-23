@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysqldb:3306/aryanDb
+    username: root
+    password: Satyam@123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      minimumIdle: 20
+      maximumPoolSize: 50
+      idleTimeout: 60000
+      maxLifetime: 2000000
+      connectionTimeout: 600000
+      poolName: HPool
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update

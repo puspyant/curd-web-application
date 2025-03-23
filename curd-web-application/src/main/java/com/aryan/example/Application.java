@@ -1,4 +1,4 @@
-package com.aryan.example.curd_web_application;
+package com.aryan.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

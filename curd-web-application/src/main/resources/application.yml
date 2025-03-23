@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: curd-web-application.
+  profiles:
+    active: docker
